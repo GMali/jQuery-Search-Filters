@@ -1,0 +1,131 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <title></title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- CSS: implied media="all" -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <div id="container">
+    <header>
+
+    </header>
+    <div id="main" role="main">
+    
+    		<!--sort starts here-->
+			<div class="sort">
+				<h1>Sort Results By</h1>
+				<div class="sortlink">
+					<a name="HighestRating" href="#">Highest Rating</a> <a name="Reviews" href="#">Reviews</a> <a name="Deals" href="#">Deals</a>
+                </div>
+			</div>
+            <br />
+			<!--sort ends here-->
+			<!--neighborhoods starts here-->
+			<div class="section">
+				<h1>
+					Neighborhoods</h1>
+				<div class="checkboxtxt">
+					<input name="ChulaVista" type="checkbox" value="" align="left" /><span>Chula Vista</span></div>
+				<div class="checkboxtxt">
+					<input name="SanMateo" type="checkbox" value="" align="left" /><span>San Mateo</span></div>
+				<div class="checkboxtxt">
+					<input name="SanAndreas" type="checkbox" value="" align="left" /><span>San Andreas</span></div>
+				<div class="checkboxtxt">
+					<input name="SanFrancisco" type="checkbox" value="" align="left" /><span>San Francisco</span></div>
+				<div class="spacer1">
+				</div>
+			</div>
+			<div id="neighborhoods" style="display:none;">
+				<p>[Neighborhoods Content Goes Here]</p>
+			</div>
+			<!--neighborhoods ends here-->         
+            <br />
+			<!--features starts here-->
+			<div class="section">
+				<h1>
+					Features</h1>
+				<div class="checkboxtxt">
+					<input name="OpenNow" type="checkbox" value="" align="left" /><span>Open Now</span></div>
+				<div class="checkboxtxt">
+					<input name="Delivery" type="checkbox" value="" align="left" /><span>Delivery</span></div>
+				<div class="checkboxtxt">
+					<input name="GoodforKids" type="checkbox" value="" align="left" /><span>Good for Kids</span></div>
+				<div class="checkboxtxt">
+					<input name="TakeOut" type="checkbox" value="" align="left" /><span>Take Out</span></div>
+				<div class="spacer1">
+				</div>
+			</div>
+			<div id="features" style="display:none;">
+				<p>[Features Content Goes Here]</p>
+			</div>
+			<!--features ends here-->
+            <br />
+			<!--price starts here-->
+			<div class="section">
+				<h1>
+					Price</h1>
+				<div class="checkboxtxt">
+					<input name="Price1" type="checkbox" value="" align="left" /><span>$$$$</span></div>
+				<div class="checkboxtxt">
+					<input name="Price2" type="checkbox" value="" align="left" /><span>$$$</span></div>
+				<div class="checkboxtxt">
+					<input name="Price3" type="checkbox" value="" align="left" /><span>$$</span></div>
+				<div class="checkboxtxt">
+					<input name="Price4" type="checkbox" value="" align="left" /><span>$</span></div>
+				<div class="spacer1">
+				</div>
+			</div>
+			<!--price ends here-->
+            <br />
+			<!--category starts here-->
+			<div class="section">
+				<h1>
+					Category</h1>
+				<div class="checkboxtxt">
+					<input name="Pizza" type="checkbox" value="" align="left" /><span>Pizza</span></div>
+				<div class="checkboxtxt">
+					<input name="Italian" type="checkbox" value="" align="left" /><span>Italian</span></div>
+				<div class="checkboxtxt">
+					<input name="Bars" type="checkbox" value="" align="left" /><span>Bars</span></div>
+				<div class="checkboxtxt">
+					<input name="Food" type="checkbox" value="" align="left" /><span>Food</span></div>
+				<div class="spacer1">
+				</div>
+			</div>
+			<div id="categories" style="display:none;">
+				<p>[Categories Content Goes Here]</p>
+			</div>
+			<!--category ends here-->
+            
+
+    </div>
+    <footer>
+
+    </footer>
+  </div> <!--! end of #container -->
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+
+  <!-- scripts concatenated and minified via ant build script-->
+  <script src="js/select.js"></script>
+  <!-- end scripts-->	
+  
+</body>
+</html>
