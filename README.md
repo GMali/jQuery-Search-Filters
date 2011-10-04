@@ -1,5 +1,7 @@
 #  jQuery Search Filters
 
+  Demo: http://gauravmali.com/sandbox/yelp
+
 ## Summary:
 
 Sometimes you don't want to use ajax (for SEO purposes) and yet you wish to improve the user experience. This sample code here is taken as an inspiration from Yelp's search filters.
